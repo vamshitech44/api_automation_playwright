@@ -1,0 +1,22 @@
+{
+  "name": "hybrid-api-automation-playwright-xlsx",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Hybrid API automation framework using Playwright, TypeScript and XLSX data-driven testing",
+  "scripts": {
+    "test": "playwright test",
+    "test:smoke": "playwright test --grep @smoke",
+    "test:headed": "playwright test --headed",
+    "report": "playwright show-report",
+    "typecheck": "tsc --noEmit",
+    "clean": "node scripts/clean.js"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.55.0",
+    "@types/node": "^24.0.0",
+    "typescript": "^5.9.0"
+  },
+  "dependencies": {
+    "xlsx": "^0.18.5"
+  }
+}
