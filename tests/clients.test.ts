@@ -40,3 +40,5 @@ test.describe('Clients API', () => {
     expect(_res.status()).toBe(200);
   });
 });
+
+// AI-API-Automation re-run marker: wf=2a397899-723a-4c2c-8d39-d2657a47d4cd branch=ai-gen/SCRMGOAPP-T2076/20261005-204452Z ts=20261005T204454Z (test logic unchanged — stamped so a PR can be opened for re-approval)
